@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+select, input[type="file"], button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.shirt-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#shirtBase {
+    max-width: 100%;
+    height: auto;
+    width: 300px; /* Aumenta el tamaño de la camiseta */
+}
+
+#overlayContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#overlayImage {
+    cursor: move;
+}
+
+#resizeHandle {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+}

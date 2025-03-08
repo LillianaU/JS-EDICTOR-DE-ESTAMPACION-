@@ -1,0 +1,20 @@
+Descripción del Proyecto para GitHub
+Este proyecto es una aplicación web que permite a los usuarios personalizar una camiseta con una imagen de estampado. Los usuarios pueden seleccionar el tipo de camiseta (hombre o mujer), cargar una imagen de estampado, mover y redimensionar la imagen dentro de la camiseta, y guardar el diseño final.
+
+Funcionalidades Principales
+Selección de Tipo de Camiseta: Los usuarios pueden seleccionar entre una camiseta de hombre o mujer. La imagen base de la camiseta cambiará según la selección.
+Carga de Imagen de Estampado: Los usuarios pueden cargar una imagen desde su dispositivo para usarla como estampado en la camiseta.
+Mover y Redimensionar Imagen: Los usuarios pueden mover y redimensionar la imagen de estampado dentro del área de la camiseta.
+Marcador de Posición: Un marcador amarillo aparece debajo de la imagen de estampado para ayudar a identificar la posición de la imagen.
+Guardar Diseño: Los usuarios pueden guardar el diseño final de la camiseta como una imagen.
+Requisitos
+Live Server: Para ejecutar la aplicación, es necesario instalar y usar Live Server. Esto se debe a que la aplicación carga imágenes locales y necesita ejecutarse en un servidor web para evitar problemas de CORS.
+Instrucciones de Ejecución
+Instalar Live Server:
+
+Si no tienes Live Server instalado, puedes instalarlo globalmente usando npm:
+Ejecutar la Aplicación:
+
+Navega a la carpeta del proyecto en la terminal:
+Inicia Live Server en la carpeta del proyecto:
+Abre la aplicación en tu navegador usando la siguiente dirección:
