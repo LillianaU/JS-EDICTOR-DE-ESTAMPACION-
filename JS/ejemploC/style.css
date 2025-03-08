@@ -1,77 +1,100 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Fuente de la página */
+    display: flex; /* Usar flexbox para el diseño */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura de la ventana gráfica */
+    margin: 0; /* Sin margen */
+    background-color: #f0f0f0; /* Color de fondo */
 }
 
 .container {
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centrar el texto */
+    background-color: #fff; /* Color de fondo blanco */
+    padding: 20px; /* Relleno interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    max-width: 500px; /* Ancho máximo */
+    width: 100%; /* Ancho completo */
 }
 
 h1 {
-    margin-bottom: 20px;
-    color: #333;
+    margin-bottom: 20px; /* Margen inferior */
+    color: #333; /* Color del texto */
 }
 
 select, input[type="file"], button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 80%;
-    max-width: 300px;
+    display: block; /* Mostrar como bloque */
+    margin: 10px auto; /* Margen automático para centrar */
+    padding: 10px; /* Relleno interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 80%; /* Ancho del 80% */
+    max-width: 300px; /* Ancho máximo */
 }
 
 button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar cursor al pasar */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Color de fondo al pasar */
 }
 
 .shirt-container {
-    position: relative;
-    display: inline-block;
-    margin-top: 20px;
+    position: relative; /* Posición relativa */
+    display: inline-block; /* Mostrar como bloque en línea */
+    margin-top: 20px; /* Margen superior */
 }
 
 #shirtBase {
-    max-width: 100%;
-    height: auto;
-    width: 300px; /* Aumenta el tamaño de la camiseta */
+    max-width: 100%; /* Ancho máximo */
+    height: auto; /* Altura automática */
+    width: 300px; /* Ancho fijo */
 }
 
 #overlayContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
+    position: absolute; /* Posición absoluta */
+    top: 0; /* Posición superior */
+    left: 0; /* Posición izquierda */
+    display: none; /* No mostrar por defecto */
 }
 
 #overlayImage {
-    cursor: move;
+    cursor: move; /* Cambiar cursor al mover */
 }
 
 #resizeHandle {
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    cursor: se-resize;
+    width: 10px; /* Ancho fijo */
+    height: 10px; /* Altura fija */
+    background-color: red; /* Color de fondo */
+    position: absolute; /* Posición absoluta */
+    bottom: 0; /* Posición inferior */
+    right: 0; /* Posición derecha */
+    cursor: se-resize; /* Cambiar cursor al redimensionar */
+}
+
+.modal-content {
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.modal-header, .modal-footer {
+    border: none; /* Sin borde */
+}
+
+.modal-body {
+    text-align: center; /* Centrar el texto */
+}
+
+.progress {
+    height: 20px; /* Altura fija */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.progress-bar {
+    border-radius: 10px; /* Bordes redondeados */
 }
